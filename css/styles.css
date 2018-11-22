@@ -1,0 +1,325 @@
+/* Base Element Styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: "Raven";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, span {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: "Raven";
+}
+
+p {
+  color: darkslategray;
+}
+
+/* -------------
+LAYOUT STYLES
+---------------- */
+
+/* NAVIGATION */
+
+.title {
+  font-size: 2.25em;
+  padding-top: 15px;
+}
+
+.main-nav {
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+
+.title a,
+.main-nav a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  color: #07575b;
+}
+
+.main-nav a {
+  font-size: 1.35em;
+  text-transform: uppercase;
+  background-color: #b8d9e1;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: white;
+}
+
+/* LAYOUT CONTAINERS */
+
+.container {
+  width: 90%
+  margin: 0 auto;
+}
+
+.banner {
+  margin-top: 55px;
+  text-align: center;
+}
+
+/* PAGE ELEMENTS */
+
+.intro {
+  background-color: #c4dfe6;
+  text-align: center;
+}
+
+.profile-img {
+  width: 80%;
+}
+
+.mission {
+  line-height: 1.6em;
+  font-size: 1.2em;
+  color: darkslategray;
+  margin-top: 30px;
+  padding-bottom: 55px;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.project-images {
+  width: 100%;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+img.project-images:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+
+
+}
+
+.project-titles {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 30px 0;
+	color: darkslategray;
+}
+
+.project-paragraphs {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding-bottom: 40px;
+}
+
+.skills {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.skills-title {
+  margin-bottom: 10px;
+		border-bottom: 1px solid #c4dfe6;
+		width: 30%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+}
+
+.skills-list {
+		padding-top: 50px;
+  padding-bottom: 30px;
+		margin: 0 auto;
+}
+
+.skills-list li {
+  padding: 10px 0;
+	display: inline;
+}
+
+.skills img {
+	width:80px;
+}
+
+
+.main-footer {
+  background-color: #c4dfe6;
+  padding: 30px 0;
+}
+
+.footer-title,
+.footer-paragraph,
+.footer-phone,
+.footer-email {
+  text-align: center;
+	color: #07575b;
+}
+
+.footer-title {
+  padding: 30px 0;
+}
+
+.footer-paragraph,
+.footer-phone,
+.footer-email {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  color: #07575b;
+}
+
+.footer-paragraph {
+  padding-bottom: 30px;
+}
+
+.footer-phone {
+  padding-bottom: 15px;
+}
+
+.footer-email {
+  padding-bottom: 35px;
+}
+
+.footer-phone span,
+.footer-email span {
+  font-weight: bold;
+}
+
+.footer-name,
+.footer-top {
+  margin: 30px 0;
+}
+
+.footer-name a,
+.footer-top a {
+  color:#07575b;
+}
+
+.footer-name {
+  float: left;
+}
+
+.footer-top {
+  float: right;
+}
+
+.footer-nav li {
+  display: none;
+}
+
+.footer-nav li a {
+  color: #07575b;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+/* Tablet Sizing */
+@media (min-width: 768px) {
+
+  .intro {
+    padding-bottom: 50px;
+  }
+
+  .main-nav {
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .profile-img {
+    float: right;
+    width: 40%;
+  }
+
+  .mission {
+    float: left;
+    text-align: left;
+    width: 55%;
+    font-size: 1.2em;
+  }
+
+				.skills img {
+				width:100px;
+			}
+
+  .col {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .footer-paragraph {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    float: right;
+  }
+
+  .footer-nav li {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  .footer-top {
+    display: none;
+  }
+
+
+}
+
+/* Desktop Sizing */
+@media (min-width: 1024px) {
+  .title {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .mission {
+    width: 55%;
+    font-size: 1.4em;
+  }
+
+  .col {
+    width: 33%;
+    padding: 10px;
+  }
+
+  .footer-paragraph {
+    width: 50%;
+  }
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
