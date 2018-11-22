@@ -26,7 +26,7 @@ ul {
 h1, h2, h3, span {
   font-family: 'Roboto';
   font-weight: 900;
-  color: "Raven";
+  color: #0e0b16;
 }
 
 p {
@@ -46,7 +46,6 @@ LAYOUT STYLES
 
 .main-nav {
   margin-top: 20px;
-  padding: 10px 15px;
 }
 
 .title a,
@@ -54,13 +53,13 @@ LAYOUT STYLES
   text-align: center;
   display: block;
   padding: 10px 15px;
-  color: #07575b;
+  color: #d5d5d5;
 }
 
 .main-nav a {
   font-size: 1.35em;
   text-transform: uppercase;
-  background-color: #b8d9e1;
+  background-color: #9099a2;
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -72,7 +71,7 @@ LAYOUT STYLES
 /* LAYOUT CONTAINERS */
 
 .container {
-  width: 90%
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -84,7 +83,7 @@ LAYOUT STYLES
 /* PAGE ELEMENTS */
 
 .intro {
-  background-color: #c4dfe6;
+  background-color: #6d7993;
   text-align: center;
 }
 
@@ -95,7 +94,7 @@ LAYOUT STYLES
 .mission {
   line-height: 1.6em;
   font-size: 1.2em;
-  color: darkslategray;
+  color: #d5d5d5;
   margin-top: 30px;
   padding-bottom: 55px;
 }
@@ -160,7 +159,7 @@ img.project-images:hover{
 
 
 .main-footer {
-  background-color: #c4dfe6;
+  background-color: #6d7993;
   padding: 30px 0;
 }
 
@@ -169,7 +168,7 @@ img.project-images:hover{
 .footer-phone,
 .footer-email {
   text-align: center;
-	color: #07575b;
+	color: #d5d5d5;
 }
 
 .footer-title {
@@ -181,7 +180,7 @@ img.project-images:hover{
 .footer-email {
   line-height: 1.4em;
   font-size: 1.1em;
-  color: #07575b;
+  color: #d5d5d5;
 }
 
 .footer-paragraph {
@@ -199,6 +198,7 @@ img.project-images:hover{
 .footer-phone span,
 .footer-email span {
   font-weight: bold;
+  color: #d5d5d5;
 }
 
 .footer-name,
@@ -208,7 +208,7 @@ img.project-images:hover{
 
 .footer-name a,
 .footer-top a {
-  color:#07575b;
+  color:#d5d5d5;
 }
 
 .footer-name {
@@ -224,7 +224,7 @@ img.project-images:hover{
 }
 
 .footer-nav li a {
-  color: #07575b;
+  color: #d5d5d5;
 }
 
 /* =================================
