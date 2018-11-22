@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  color: "Raven";
+
 }
 
 a {
@@ -227,9 +227,9 @@ img.project-images:hover{
   color: #d5d5d5;
 }
 
-/* =================================
+/* ----------------------
   Media Queries
-==================================== */
+   ---------------------- */
 
 /* Tablet Sizing */
 @media (min-width: 768px) {
